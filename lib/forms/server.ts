@@ -83,16 +83,47 @@ export async function sendEmail(opts: { to: string | undefined; replyTo: string;
 
 export const label = (c: Country, other?: string) => (c === "OTHER" ? `Other: ${other ?? ""}` : countryLabel[c]);
 
+const MAX_BODY = 20_000;
+
+/** Read the request body as text, giving up (null) once it exceeds `max` bytes. */
+async function readLimited(req: Request, max: number): Promise<string | null> {
+  if (!req.body) return "";
+  const reader = req.body.getReader();
+  const chunks: Uint8Array[] = [];
+  let size = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    size += value.byteLength;
+    if (size > max) {
+      await reader.cancel();
+      return null;
+    }
+    chunks.push(value);
+  }
+  const all = new Uint8Array(size);
+  let off = 0;
+  for (const c of chunks) {
+    all.set(c, off);
+    off += c.byteLength;
+  }
+  return new TextDecoder().decode(all);
+}
+
 /** Shared guard: method/size/content-type, honeypot, too-fast submits, rate limit. */
 export async function readGuarded(req: Request): Promise<{ data: unknown } | { response: Response }> {
   const json = (status: number, body: object) => ({ response: Response.json(body, { status }) });
   if (!req.headers.get("content-type")?.includes("application/json")) return json(415, { ok: false, error: "Send JSON." });
   const len = Number(req.headers.get("content-length") ?? 0);
-  if (len > 20_000) return json(413, { ok: false, error: "Too large." });
+  if (len > MAX_BODY) return json(413, { ok: false, error: "Too large." });
   if (rateLimited(clientIp(req))) return json(429, { ok: false, error: "Too many enquiries from this connection. Please try again later or use WhatsApp." });
+  // Enforce the size limit on the bytes actually received (Content-Length can be absent or wrong),
+  // so oversized input never reaches JSON parsing or zod validation.
+  const raw = await readLimited(req, MAX_BODY);
+  if (raw === null) return json(413, { ok: false, error: "Too large." });
   let data: unknown;
   try {
-    data = await req.json();
+    data = JSON.parse(raw);
   } catch {
     return json(400, { ok: false, error: "Invalid JSON." });
   }

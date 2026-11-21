@@ -12,7 +12,7 @@ The site is a standard Next.js 15 App Router project. Every page is static excep
    ```bash
    npm run build
    ```
-   You should see about 150 static pages and no errors. Node 20.9 or newer is required (set in `package.json` → `engines`).
+   You should see about 150 static pages and no errors. Node 22 is required (pinned as `22.x` in `package.json` → `engines`; Vercel uses it automatically).
 
 ## 2. Create the Vercel project
 
