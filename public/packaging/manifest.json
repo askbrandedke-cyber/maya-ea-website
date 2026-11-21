@@ -1,0 +1,701 @@
+{
+  "volume-plus": {
+    "category": "bread-improvers",
+    "back": "/packaging/labels/bread-improvers/volume-plus--back.svg",
+    "backTex": "volume-plus--back",
+    "fronts": {
+      "10-kg": {
+        "svg": "/packaging/labels/bread-improvers/volume-plus--10-kg--front.svg",
+        "tex": "volume-plus--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "mega-plus": {
+    "category": "bread-improvers",
+    "back": "/packaging/labels/bread-improvers/mega-plus--back.svg",
+    "backTex": "mega-plus--back",
+    "fronts": {
+      "20-kg": {
+        "svg": "/packaging/labels/bread-improvers/mega-plus--20-kg--front.svg",
+        "tex": "mega-plus--20-kg--front",
+        "format": "sack"
+      }
+    }
+  },
+  "excess": {
+    "category": "bread-improvers",
+    "back": "/packaging/labels/bread-improvers/excess--back.svg",
+    "backTex": "excess--back",
+    "fronts": {
+      "4-5-kg": {
+        "svg": "/packaging/labels/bread-improvers/excess--4-5-kg--front.svg",
+        "tex": "excess--4-5-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "easy-mix": {
+    "category": "bread-improvers",
+    "back": "/packaging/labels/bread-improvers/easy-mix--back.svg",
+    "backTex": "easy-mix--back",
+    "fronts": {
+      "25-kg": {
+        "svg": "/packaging/labels/bread-improvers/easy-mix--25-kg--front.svg",
+        "tex": "easy-mix--25-kg--front",
+        "format": "sack"
+      }
+    }
+  },
+  "bread-softener": {
+    "category": "bread-improvers",
+    "back": "/packaging/labels/bread-improvers/bread-softener--back.svg",
+    "backTex": "bread-softener--back",
+    "fronts": {
+      "10-kg": {
+        "svg": "/packaging/labels/bread-improvers/bread-softener--10-kg--front.svg",
+        "tex": "bread-softener--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "natural-sugar-deduction": {
+    "category": "bread-improvers",
+    "back": "/packaging/labels/bread-improvers/natural-sugar-deduction--back.svg",
+    "backTex": "natural-sugar-deduction--back",
+    "fronts": {
+      "10-kg": {
+        "svg": "/packaging/labels/bread-improvers/natural-sugar-deduction--10-kg--front.svg",
+        "tex": "natural-sugar-deduction--10-kg--front",
+        "format": "sack"
+      }
+    }
+  },
+  "tangerine-sponge": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/tangerine-sponge--back.svg",
+    "backTex": "tangerine-sponge--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/tangerine-sponge--1-kg--front.svg",
+        "tex": "tangerine-sponge--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/tangerine-sponge--10-kg--front.svg",
+        "tex": "tangerine-sponge--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "tangerine-muffin": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/tangerine-muffin--back.svg",
+    "backTex": "tangerine-muffin--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/tangerine-muffin--1-kg--front.svg",
+        "tex": "tangerine-muffin--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/tangerine-muffin--10-kg--front.svg",
+        "tex": "tangerine-muffin--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "coconut-sponge": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/coconut-sponge--back.svg",
+    "backTex": "coconut-sponge--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/coconut-sponge--1-kg--front.svg",
+        "tex": "coconut-sponge--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/coconut-sponge--10-kg--front.svg",
+        "tex": "coconut-sponge--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "coconut-muffin": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/coconut-muffin--back.svg",
+    "backTex": "coconut-muffin--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/coconut-muffin--1-kg--front.svg",
+        "tex": "coconut-muffin--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/coconut-muffin--10-kg--front.svg",
+        "tex": "coconut-muffin--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "passion-sponge": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/passion-sponge--back.svg",
+    "backTex": "passion-sponge--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/passion-sponge--1-kg--front.svg",
+        "tex": "passion-sponge--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/passion-sponge--10-kg--front.svg",
+        "tex": "passion-sponge--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "passion-muffin": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/passion-muffin--back.svg",
+    "backTex": "passion-muffin--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/passion-muffin--1-kg--front.svg",
+        "tex": "passion-muffin--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/passion-muffin--10-kg--front.svg",
+        "tex": "passion-muffin--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "pistachio-sponge": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/pistachio-sponge--back.svg",
+    "backTex": "pistachio-sponge--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/pistachio-sponge--1-kg--front.svg",
+        "tex": "pistachio-sponge--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/pistachio-sponge--10-kg--front.svg",
+        "tex": "pistachio-sponge--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "pistachio-muffin": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/pistachio-muffin--back.svg",
+    "backTex": "pistachio-muffin--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/pistachio-muffin--1-kg--front.svg",
+        "tex": "pistachio-muffin--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/pistachio-muffin--10-kg--front.svg",
+        "tex": "pistachio-muffin--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "oreo-sponge": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/oreo-sponge--back.svg",
+    "backTex": "oreo-sponge--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/oreo-sponge--1-kg--front.svg",
+        "tex": "oreo-sponge--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/oreo-sponge--10-kg--front.svg",
+        "tex": "oreo-sponge--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "oreo-muffin": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/oreo-muffin--back.svg",
+    "backTex": "oreo-muffin--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/oreo-muffin--1-kg--front.svg",
+        "tex": "oreo-muffin--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/oreo-muffin--10-kg--front.svg",
+        "tex": "oreo-muffin--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "lemon-sponge": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/lemon-sponge--back.svg",
+    "backTex": "lemon-sponge--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/lemon-sponge--1-kg--front.svg",
+        "tex": "lemon-sponge--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/lemon-sponge--10-kg--front.svg",
+        "tex": "lemon-sponge--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "lemon-muffin": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/lemon-muffin--back.svg",
+    "backTex": "lemon-muffin--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/lemon-muffin--1-kg--front.svg",
+        "tex": "lemon-muffin--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/lemon-muffin--10-kg--front.svg",
+        "tex": "lemon-muffin--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "strawberry-sponge": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/strawberry-sponge--back.svg",
+    "backTex": "strawberry-sponge--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/strawberry-sponge--1-kg--front.svg",
+        "tex": "strawberry-sponge--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/strawberry-sponge--10-kg--front.svg",
+        "tex": "strawberry-sponge--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "strawberry-muffin": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/strawberry-muffin--back.svg",
+    "backTex": "strawberry-muffin--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/cake-premixes/strawberry-muffin--1-kg--front.svg",
+        "tex": "strawberry-muffin--1-kg--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/strawberry-muffin--10-kg--front.svg",
+        "tex": "strawberry-muffin--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "blondy-vanilla-sponge": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/blondy-vanilla-sponge--back.svg",
+    "backTex": "blondy-vanilla-sponge--back",
+    "fronts": {
+      "500-g": {
+        "svg": "/packaging/labels/cake-premixes/blondy-vanilla-sponge--500-g--front.svg",
+        "tex": "blondy-vanilla-sponge--500-g--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/blondy-vanilla-sponge--10-kg--front.svg",
+        "tex": "blondy-vanilla-sponge--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "blondy-white-forest": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/blondy-white-forest--back.svg",
+    "backTex": "blondy-white-forest--back",
+    "fronts": {
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/blondy-white-forest--10-kg--front.svg",
+        "tex": "blondy-white-forest--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "browny-black-forest": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/browny-black-forest--back.svg",
+    "backTex": "browny-black-forest--back",
+    "fronts": {
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/browny-black-forest--10-kg--front.svg",
+        "tex": "browny-black-forest--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "red-velvet": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/red-velvet--back.svg",
+    "backTex": "red-velvet--back",
+    "fronts": {
+      "500-g": {
+        "svg": "/packaging/labels/cake-premixes/red-velvet--500-g--front.svg",
+        "tex": "red-velvet--500-g--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/red-velvet--10-kg--front.svg",
+        "tex": "red-velvet--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "purple-velvet": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/purple-velvet--back.svg",
+    "backTex": "purple-velvet--back",
+    "fronts": {
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/purple-velvet--10-kg--front.svg",
+        "tex": "purple-velvet--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "fudge-cake": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/fudge-cake--back.svg",
+    "backTex": "fudge-cake--back",
+    "fronts": {
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/fudge-cake--10-kg--front.svg",
+        "tex": "fudge-cake--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "butter-cake": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/butter-cake--back.svg",
+    "backTex": "butter-cake--back",
+    "fronts": {
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/butter-cake--10-kg--front.svg",
+        "tex": "butter-cake--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "oil-muffin-vanilla": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/oil-muffin-vanilla--back.svg",
+    "backTex": "oil-muffin-vanilla--back",
+    "fronts": {
+      "500-g": {
+        "svg": "/packaging/labels/cake-premixes/oil-muffin-vanilla--500-g--front.svg",
+        "tex": "oil-muffin-vanilla--500-g--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/oil-muffin-vanilla--10-kg--front.svg",
+        "tex": "oil-muffin-vanilla--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "oil-muffin-chocolate": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/oil-muffin-chocolate--back.svg",
+    "backTex": "oil-muffin-chocolate--back",
+    "fronts": {
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/oil-muffin-chocolate--10-kg--front.svg",
+        "tex": "oil-muffin-chocolate--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "whipping-cream-whip-s": {
+    "category": "cake-premixes",
+    "back": "/packaging/labels/cake-premixes/whipping-cream-whip-s--back.svg",
+    "backTex": "whipping-cream-whip-s--back",
+    "fronts": {
+      "500-g": {
+        "svg": "/packaging/labels/cake-premixes/whipping-cream-whip-s--500-g--front.svg",
+        "tex": "whipping-cream-whip-s--500-g--front",
+        "format": "pouch"
+      },
+      "10-kg": {
+        "svg": "/packaging/labels/cake-premixes/whipping-cream-whip-s--10-kg--front.svg",
+        "tex": "whipping-cream-whip-s--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "caramel": {
+    "category": "general-class",
+    "back": "/packaging/labels/general-class/caramel--back.svg",
+    "backTex": "caramel--back",
+    "fronts": {
+      "30-kg": {
+        "svg": "/packaging/labels/general-class/caramel--30-kg--front.svg",
+        "tex": "caramel--30-kg--front",
+        "format": "tub"
+      }
+    }
+  },
+  "premium-master-fat": {
+    "category": "general-class",
+    "back": "/packaging/labels/general-class/premium-master-fat--back.svg",
+    "backTex": "premium-master-fat--back",
+    "fronts": {
+      "10-kg": {
+        "svg": "/packaging/labels/general-class/premium-master-fat--10-kg--front.svg",
+        "tex": "premium-master-fat--10-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "icing-sugar": {
+    "category": "general-class",
+    "back": "/packaging/labels/general-class/icing-sugar--back.svg",
+    "backTex": "icing-sugar--back",
+    "fronts": {
+      "1-kg": {
+        "svg": "/packaging/labels/general-class/icing-sugar--1-kg--front.svg",
+        "tex": "icing-sugar--1-kg--front",
+        "format": "pouch"
+      },
+      "18-kg": {
+        "svg": "/packaging/labels/general-class/icing-sugar--18-kg--front.svg",
+        "tex": "icing-sugar--18-kg--front",
+        "format": "sack"
+      }
+    }
+  },
+  "colour-vermicelli": {
+    "category": "vermicelli",
+    "back": "/packaging/labels/vermicelli/colour-vermicelli--back.svg",
+    "backTex": "colour-vermicelli--back",
+    "fronts": {
+      "10-kg": {
+        "svg": "/packaging/labels/vermicelli/colour-vermicelli--10-kg--front.svg",
+        "tex": "colour-vermicelli--10-kg--front",
+        "format": "sack"
+      }
+    }
+  },
+  "dark-vermicelli": {
+    "category": "vermicelli",
+    "back": "/packaging/labels/vermicelli/dark-vermicelli--back.svg",
+    "backTex": "dark-vermicelli--back",
+    "fronts": {
+      "10-kg": {
+        "svg": "/packaging/labels/vermicelli/dark-vermicelli--10-kg--front.svg",
+        "tex": "dark-vermicelli--10-kg--front",
+        "format": "sack"
+      }
+    }
+  },
+  "vanilla-flavour": {
+    "category": "liquid-flavours",
+    "back": "/packaging/labels/liquid-flavours/vanilla-flavour--back.svg",
+    "backTex": "vanilla-flavour--back",
+    "fronts": {
+      "4-5-l": {
+        "svg": "/packaging/labels/liquid-flavours/vanilla-flavour--4-5-l--front.svg",
+        "tex": "vanilla-flavour--4-5-l--front",
+        "format": "bottle"
+      }
+    }
+  },
+  "lemon-flavour": {
+    "category": "liquid-flavours",
+    "back": "/packaging/labels/liquid-flavours/lemon-flavour--back.svg",
+    "backTex": "lemon-flavour--back",
+    "fronts": {
+      "4-5-l": {
+        "svg": "/packaging/labels/liquid-flavours/lemon-flavour--4-5-l--front.svg",
+        "tex": "lemon-flavour--4-5-l--front",
+        "format": "bottle"
+      }
+    }
+  },
+  "coconut-flavour": {
+    "category": "liquid-flavours",
+    "back": "/packaging/labels/liquid-flavours/coconut-flavour--back.svg",
+    "backTex": "coconut-flavour--back",
+    "fronts": {
+      "4-5-l": {
+        "svg": "/packaging/labels/liquid-flavours/coconut-flavour--4-5-l--front.svg",
+        "tex": "coconut-flavour--4-5-l--front",
+        "format": "bottle"
+      }
+    }
+  },
+  "baguette": {
+    "category": "bread-premixes",
+    "back": "/packaging/labels/bread-premixes/baguette--back.svg",
+    "backTex": "baguette--back",
+    "fronts": {
+      "10-kg": {
+        "svg": "/packaging/labels/bread-premixes/baguette--10-kg--front.svg",
+        "tex": "baguette--10-kg--front",
+        "format": "sack"
+      }
+    }
+  },
+  "simsim-seeds": {
+    "category": "seeds",
+    "back": "/packaging/labels/seeds/simsim-seeds--back.svg",
+    "backTex": "simsim-seeds--back",
+    "fronts": {
+      "25-kg": {
+        "svg": "/packaging/labels/seeds/simsim-seeds--25-kg--front.svg",
+        "tex": "simsim-seeds--25-kg--front",
+        "format": "sack"
+      }
+    }
+  },
+  "potassium-sorbate": {
+    "category": "preservatives",
+    "back": "/packaging/labels/preservatives/potassium-sorbate--back.svg",
+    "backTex": "potassium-sorbate--back",
+    "fronts": {
+      "800-g": {
+        "svg": "/packaging/labels/preservatives/potassium-sorbate--800-g--front.svg",
+        "tex": "potassium-sorbate--800-g--front",
+        "format": "pouch"
+      }
+    }
+  },
+  "dark-compound-chips": {
+    "category": "chocolates",
+    "back": "/packaging/labels/chocolates/dark-compound-chips--back.svg",
+    "backTex": "dark-compound-chips--back",
+    "fronts": {
+      "4-5-kg": {
+        "svg": "/packaging/labels/chocolates/dark-compound-chips--4-5-kg--front.svg",
+        "tex": "dark-compound-chips--4-5-kg--front",
+        "format": "box"
+      }
+    }
+  },
+  "red-cherries": {
+    "category": "fruits",
+    "back": "/packaging/labels/fruits/red-cherries--back.svg",
+    "backTex": "red-cherries--back",
+    "fronts": {
+      "5-kg": {
+        "svg": "/packaging/labels/fruits/red-cherries--5-kg--front.svg",
+        "tex": "red-cherries--5-kg--front",
+        "format": "tub"
+      }
+    }
+  },
+  "piping-gel": {
+    "category": "piping-gels",
+    "back": "/packaging/labels/piping-gels/piping-gel--back.svg",
+    "backTex": "piping-gel--back",
+    "fronts": {
+      "5-kg": {
+        "svg": "/packaging/labels/piping-gels/piping-gel--5-kg--front.svg",
+        "tex": "piping-gel--5-kg--front",
+        "format": "tub"
+      }
+    }
+  },
+  "greaseproof-paper": {
+    "category": "baking-papers",
+    "back": "/packaging/labels/baking-papers/greaseproof-paper--back.svg",
+    "backTex": "greaseproof-paper--back",
+    "fronts": {
+      "500-sheets": {
+        "svg": "/packaging/labels/baking-papers/greaseproof-paper--500-sheets--front.svg",
+        "tex": "greaseproof-paper--500-sheets--front",
+        "format": "box"
+      }
+    }
+  },
+  "round-cake-base": {
+    "category": "cake-bases",
+    "back": "/packaging/labels/cake-bases/round-cake-base--back.svg",
+    "backTex": "round-cake-base--back",
+    "fronts": {
+      "8in": {
+        "svg": "/packaging/labels/cake-bases/round-cake-base--8in--front.svg",
+        "tex": "round-cake-base--8in--front",
+        "format": "sleeve"
+      },
+      "10in": {
+        "svg": "/packaging/labels/cake-bases/round-cake-base--10in--front.svg",
+        "tex": "round-cake-base--10in--front",
+        "format": "sleeve"
+      },
+      "12in": {
+        "svg": "/packaging/labels/cake-bases/round-cake-base--12in--front.svg",
+        "tex": "round-cake-base--12in--front",
+        "format": "sleeve"
+      },
+      "14in": {
+        "svg": "/packaging/labels/cake-bases/round-cake-base--14in--front.svg",
+        "tex": "round-cake-base--14in--front",
+        "format": "sleeve"
+      }
+    }
+  },
+  "cake-box": {
+    "category": "cake-boxes",
+    "back": "/packaging/labels/cake-boxes/cake-box--back.svg",
+    "backTex": "cake-box--back",
+    "fronts": {
+      "5in": {
+        "svg": "/packaging/labels/cake-boxes/cake-box--5in--front.svg",
+        "tex": "cake-box--5in--front",
+        "format": "sleeve"
+      },
+      "8in": {
+        "svg": "/packaging/labels/cake-boxes/cake-box--8in--front.svg",
+        "tex": "cake-box--8in--front",
+        "format": "sleeve"
+      },
+      "10in": {
+        "svg": "/packaging/labels/cake-boxes/cake-box--10in--front.svg",
+        "tex": "cake-box--10in--front",
+        "format": "sleeve"
+      },
+      "12in": {
+        "svg": "/packaging/labels/cake-boxes/cake-box--12in--front.svg",
+        "tex": "cake-box--12in--front",
+        "format": "sleeve"
+      },
+      "14in": {
+        "svg": "/packaging/labels/cake-boxes/cake-box--14in--front.svg",
+        "tex": "cake-box--14in--front",
+        "format": "sleeve"
+      },
+      "17in": {
+        "svg": "/packaging/labels/cake-boxes/cake-box--17in--front.svg",
+        "tex": "cake-box--17in--front",
+        "format": "sleeve"
+      }
+    }
+  }
+}

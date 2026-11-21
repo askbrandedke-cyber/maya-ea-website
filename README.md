@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Maya E.A. Limited: website proposal by BRANDED
 
-## Getting Started
+A corporate website rebuild for **Maya E.A. Limited**: bakery ingredients and food additives in Kenya, Uganda and Rwanda since 2009. It includes a **proposed packaging system** for the Bakeshed range.
 
-First, run the development server:
+> Concept packaging by BRANDED — proposal only. Packaging shown in this project is not Maya's current packaging.
+
+## Quick start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
+```bash
+npm run dev
+```
+Open http://localhost:3000. Forms run in dry-run mode until email keys are set (see `.env.example`).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Documents
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| File | What it is |
+|---|---|
+| [AUDIT.md](AUDIT.md) | Audit of mayaealtd.com and bakeshed.rw, and the plan |
+| [PACKAGING-SYSTEM.md](PACKAGING-SYSTEM.md) | Packaging system: colours, type, grid, zones, rules |
+| [SITEMAP.md](SITEMAP.md) | 77 URLs, the job of each page, navigation, SEO map |
+| [CONTENT-GUIDE.md](CONTENT-GUIDE.md) | How to edit products, packs, contacts, images and env variables |
+| [PLACEHOLDERS.md](PLACEHOLDERS.md) | Every [CONFIRM: …] item needing input from Maya |
+| [DEPLOY.md](DEPLOY.md) | Vercel deployment, email set-up, go-live checklist |
+| `docs/previews/` | Screenshots from each build stage |
+| `docs/qa-mobile/` | Mobile QA: 17 page types on iPhone SE and Pixel 7 |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Stack
 
-## Learn More
+Next.js 15 (App Router) · TypeScript · Tailwind CSS 4 · Framer Motion (lazy) · GSAP ScrollTrigger (scroll story only) · React Three Fiber + drei (3D packs from simple geometry) · zod · Resend (email) · deploys to Vercel.
 
-To learn more about Next.js, take a look at the following resources:
+## Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`npm run labels` (pack artwork) · `npm run sync:bakeshed` (catalogue) · `npm run check:meta` (SEO titles) · `npm run build` · `npm run lint`
